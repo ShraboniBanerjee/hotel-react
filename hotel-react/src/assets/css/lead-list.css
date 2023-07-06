@@ -1,0 +1,98 @@
+.lead-primary-column p,
+.lead-primary-contact-column p {
+    padding: 0;
+    margin: 0;
+    font-family: var(--default-font-light);
+}
+
+.lead-primary-column .user-name {
+    font-family: var(--default-font-light);
+}
+
+.lead-primary-column .company-name {
+    color: var(--secondary-color);
+}
+
+.lead-primary-column .timestamp {
+    color: var(--grey);
+    font-size: 10px;
+    font-family: var(--default-font-light-italic);
+}
+
+.lead-list {
+    font-family: var(--default-font-light) !important;
+}
+
+.lead-list .source,
+.lead-list .milestone {
+    font-family: var(--default-font-light-italic);
+    font-size: 12px;
+}
+
+.noBorder {
+    width: 176px !important;
+    height: 30px;
+    outline: none !important;
+    border-width: 0px !important;
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+.searchSub {
+    color: white !important;
+    text-align: center;
+    line-height: 1.2em;
+    white-space: normal;
+    background: #47ADFF !important;
+    border-radius: 12px;
+    width: 15%;
+}
+
+.AddSub {
+    line-height: 1.2em;
+    white-space: normal;
+    color: #0747A6 !important;
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    width: 12%;
+    background: #A6D4FF !important;
+    border: 1px solid #0747A6 !important;
+    border-radius: 12px !important;
+}
+
+.AddSub:hover {
+    color: white !important
+}
+
+.chip {
+    background: #C9FFD2 !important;
+    color: #29973B !important;
+    font-weight: 600;
+    border: 1px solid #29973B !important;
+}
+
+.my-chip .css-i4bv87-MuiSvgIcon-root{
+    background: #29973B !important;
+    color: white !important;
+}
+
+.SubAdd{
+    color: white !important;
+    
+    background: #47ADFF !important;
+  
+}
+
+.SubAdd,.SubClose{
+    text-align: center;
+    line-height: 1.2em;
+    white-space: normal;
+    border-radius: 8px;
+    width: 10%;   
+}
+
+.SubClose{
+    background: #FFA6A6 !important;
+    color: #D32F2F !important;
+}

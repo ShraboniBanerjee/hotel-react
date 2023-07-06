@@ -1,0 +1,93 @@
+.padded{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.small_font{
+    font-size: 13px;
+}
+
+
+.Email_input{
+    box-sizing: border-box;
+
+position: absolute;
+width: 266px;
+height: 40px;
+left: 48px;
+top: 377px;
+
+opacity: 0.3;
+/* Text S2 */
+
+border: 1px solid #5F5F5F;
+border-radius: 5px;
+}
+
+.doc_barrier{
+    position: absolute;
+width: 1328px;
+height: 1141px;
+left: 0px;
+top: 567px;
+}
+
+.doc_image{
+    position: absolute;
+width: 585px;
+height: 468px;
+left: 346px;
+top: 599px;
+
+border-radius: 5px;
+}
+
+
+.doc_title{
+    position: absolute;
+width: 153px;
+height: 34px;
+left: 32px;
+top: 579px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+
+.botttom_pad{
+    margin-bottom: 10px;
+}
+
+.top_pad{
+    margin-top: 10px;
+}
+
+
+.left_pad{
+    margin-left: 30px;
+}
+
+.doc_individual{
+    background-color: #F4F5F9;
+}
+
+.bordered{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+.dotted_bordered{
+    border: 2px dotted black;
+    border-radius: 10px;
+}

@@ -1,0 +1,314 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .myinput:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  .myinput:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  .myinput:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .fee3{
+    color: blueviolet;
+  }
+
+  .ouput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  
+  .thumbnail {
+    height: 200px;
+  }
+
+  .close {
+    /* Position */
+    position: absolute;
+    z-index: 9999;
+    font-size: 30px;
+    font-weight:400;
+    transition: 0.3s;
+    color: rgb(96,96,96);
+    padding-left: 180px;
+    padding-right: 7px;
+}
+.close:hover,
+.close:focus {
+    text-decoration: none;
+    cursor: pointer;
+    animation-name: img;
+    animation-duration: 4s;
+}
+@keyframes img {
+  from {color: rgb(96,96,96); font-size: 30px;font-weight:400}
+  to {color: rgb(0,0,0);font-size: 30px;font-weight:600}
+}
+
+.upload{
+  margin-left: px;
+  background-color: #0000A3;
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-top-left-radius: 20px;
+  -ms-border-top-left-radius: 20px;
+  -o-border-top-left-radius : 20px;
+}
+.upload:hover{
+  background-color: #00008B;
+}
+.delete:hover{
+  background-color:	#8B0000;
+}
+.delete{
+  margin-left: px;
+  background-color: 	rgb(255,0,0);
+  width: 200px;
+  height: 40px;
+  color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.leb{
+  position: absolute;
+  margin-left: 40px;
+  font-weight: 500;
+  margin-top: 5px !important;
+}
+.img_reserve{
+  width: 400px;
+  height: 270px;
+  border: 3px solid steelblue;
+}
+.facility{
+  scrollbar-width: auto;
+  height: 300px;
+  overflow-y: scroll;
+}
+.add_more_f{
+  background-color: rgb(45, 85, 255);
+}
+
+.add_more_f:hover{
+  animation-name: add_more_f;
+  animation-duration: 4s;
+  background-color: rgb(1, 1, 122);
+}
+
+@keyframes add_more_f {
+  from {background-color: rgb(45, 85, 255);}
+  to {background-color: rgb(1, 1, 122);}
+}
+
+.confirm_f{
+  background-color: rgb(0, 230, 64);
+}
+
+.confirm_f:hover{
+  animation-name: confirm_f;
+  animation-duration: 4s;
+  background-color: rgb(35, 193, 80);
+}
+
+@keyframes confirm_f {
+  from {background-color: rgb(0, 230, 64);}
+  to {background-color: rgb(35, 193, 80);}
+}
+
+.delete_f{
+  background-color: rgb(255, 76, 48);
+}
+
+.delete_f:hover{
+  animation-name: delete_f;
+  animation-duration: 4s;
+  background-color: rgb(224, 47, 20);
+}
+
+@keyframes delete_f {
+  from {background-color: rgb(255, 76, 48);}
+  to {background-color: rgb(224, 47, 20);}
+}
+.confirm_f,.add_more_f,.delete_f{
+  border: none;
+  color: white;
+  margin-top: 5px;
+  border-radius: 20px;
+  margin-right: 5px;
+  width: 150px;
+}
+.facility_upload{
+  border: 2px solid #0000A3;
+  width: 250px;
+  height: 40px;
+  color: #0000A3;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.facility_upload:hover{
+  animation-name: facility_upload;
+  animation-duration: 4s;
+  background-color: #0000A3;
+  color: white;
+}
+@keyframes facility_upload {
+  from {background-color: transparent;color:#0000A3}
+  to {background-color: #0000A3;color: white;}
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption_container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  width: 17.66%;
+  display:inline-block;
+  margin: 0;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  height: 75px;
+}
+
+.active,
+.demo:hover {	
+  opacity: 1;
+}
+.check_img{
+  width: 30px;
+}
+.row{
+margin-right: 12.5px; 
+}
+
+.i{
+  width: 25px;
+  margin-top: -5px;
+}

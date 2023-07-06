@@ -1,0 +1,10 @@
+.page{
+    margin-left: 20px;
+    color: rgb(169,169,169);
+    font-family: 'Times New Roman';
+    cursor: pointer;
+  }
+  .page:hover{
+    color: rgb(115, 115, 115);
+  }
+  

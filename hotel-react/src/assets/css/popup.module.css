@@ -1,0 +1,23 @@
+.success{
+    background: #D9FFDF;
+    color:#1AB64F;
+}
+.success button{
+    background: #1AB64F;
+    color:white;
+    border-radius: 5px;
+}
+
+.danger{
+    background: #FFE3E3;
+    color:#D32F2F;
+}
+.danger button{
+    background: #D32F2F;
+    color:white;
+    border-radius: 5px;
+}
+
+.danger img, .success img{
+    width: 30%;
+}

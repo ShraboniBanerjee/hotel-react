@@ -1,0 +1,164 @@
+.head {
+
+  border-collapse: collapse !important;
+  border-radius: 20px !important;
+}
+
+.transplant-button {
+  box-sizing: border-box;
+  width: 120px;
+  height: 32px;
+  left: 1061px;
+  top: 950px;
+  background: transparent;
+  border: 0.7px solid #47ADFF;
+  border-radius: 12px;
+  color: #47ADFF;
+}
+
+.transplant-button:hover {
+  animation-name: facility_upload;
+  animation-duration: 4s;
+  background-color: #47ADFF;
+  color: white;
+}
+
+@keyframes facility_upload {
+  from {
+    background-color: transparent;
+    color: #47ADFF
+  }
+
+  to {
+    background-color: #47ADFF;
+    color: white;
+  }
+}
+
+.dark-blue {
+
+  width: 5px;
+  height: 7px;
+  left: 1080px;
+  top: 970px;
+  color: #7BB6FF;
+  transform: rotate(-180deg);
+}
+
+/* Vector 5 */
+
+.light-blue {
+
+  width: 5px;
+  height: 7px;
+  left: 1086px;
+  top: 970px;
+  color: rgba(71, 173, 255, 0.5);
+
+  transform: rotate(-180deg);
+}
+
+.title {
+
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
+
+.number {
+  color: white;
+
+}
+
+.custom-pagination li a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.number a {
+  border-radius: 20px !important;
+  background-color: #47ADFF !important;
+
+}
+
+.custom-pagination {
+  display: flex;
+  list-style-type: none;
+  justify-content: right;
+  align-items: center;
+}
+
+.custom-pagination>ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.custom-pagination ul {
+  background: white;
+  background-color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.custom-pagination li {
+  padding: 5px;
+  background-color: white;
+}
+
+
+.custom-pagination li a {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+
+.custom-pagination li:nth-child(2) {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.custom-pagination li:nth-last-child(2) {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.custom-pagination li:first-child,
+.custom-pagination li:last-child {
+  margin-left: 17px;
+  margin-right: 17px;
+  background: transparent;
+}
+
+.custom-pagination li a:first-child:hover {
+  margin-left: 2px;
+}
+
+
+.page-num {
+  background-color: white;
+}
+
+.primary {
+  background: #A6D4FF;
+  color: #0747A6;
+  border: 1px solid #0747A6;
+}
+
+.danger {
+  background: none;
+  color: #D32F2F;
+  border: 1px solid #D32F2F;
+}
+
+.print {
+  background: #FFFFFF !important;
+  border-radius: 5px;
+  color: #5F5F5F !important;
+  font-weight: 500;
+}
